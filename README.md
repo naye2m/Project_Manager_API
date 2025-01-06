@@ -14,7 +14,7 @@ This is a comprehensive documentation for the Task Management System API. The AP
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <todo: repo url>
+   git clone https://github.com/naye2m/Project_Manager_API.git
    ```
 2. Navigate to the project directory:
    ```bash

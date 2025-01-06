@@ -313,11 +313,11 @@
 								},
 								{
 									"key": "Set-Cookie",
-									"value": "Authorization=\"Token 81dcbac4b7ed6064921e1202521874e9b122b045\"; HttpOnly; Path=/; SameSite=Lax; Secure"
+									"value": "Authorization=\"Token <simple_user_auth_token>\"; HttpOnly; Path=/; SameSite=Lax; Secure"
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"message\": \"Login successful\",\n    \"token\": \"81dcbac4b7ed6064921e1202521874e9b122b045\",\n    \"user_id\": 2\n}"
+							"body": "{\n    \"message\": \"Login successful\",\n    \"token\": \"<simple_user_auth_token>\",\n    \"user_id\": 2\n}"
 						},
 						{
 							"name": "wrong username",
@@ -2884,12 +2884,12 @@
 	"variable": [
 		{
 			"key": "token_userid2",
-			"value": "81dcbac4b7ed6064921e1202521874e9b122b045",
+			"value": "<simple_user_auth_token>",
 			"type": "string"
 		},
 		{
 			"key": "admin_auth_token",
-			"value": "cbab5661dbfc3189b2b7ea25c7d2af69554d3845",
+			"value": "<auth_toke>",
 			"type": "string"
 		},
 		{
